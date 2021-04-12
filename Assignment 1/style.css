@@ -26,6 +26,7 @@ body{
 .gallery .image{
   padding: 7px;
   width: calc(100% / 3);
+  flex-grow: 1;  /* in order to make the last image appear big  */
 }
 .gallery .image span{
   display: flex;
